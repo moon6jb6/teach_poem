@@ -1,0 +1,27 @@
+# ===== 3D 资产（体积过大，不入库）=====
+3dmod_and_pic/
+*.glb
+*.gltf
+*.fbx
+*.blend
+*.mp4
+*.mov
+
+# ===== 依赖与缓存 =====
+node_modules/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.bak
+
+# ===== 临时 / 日志 / 中间产物 =====
+logs/
+trash/
+*.log
+*.tmp
+_temp/
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
