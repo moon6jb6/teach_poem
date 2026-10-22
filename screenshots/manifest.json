@@ -1,7 +1,7 @@
 {
   "work": "天阙诗都·越长安——上国诗章，长安之上",
-  "generatedAt": "2026-10-22T13:55:02.013Z",
-  "sourceVersion": "run-submit v2（新对话/新卡片UI/新NPC，本地化断网可运行）",
+  "generatedAt": "2026-10-22T14:22:51.892Z",
+  "sourceVersion": "run-submit v3（新对话 6494 字 + 新对话卡片 UI + 3 位新 NPC + 新地面/新天空贴图 + 新横版首页视频；three.js 0.160/gsap 本地化，断网可运行）",
   "resolution": "1920x1080",
   "format": "PNG",
   "count": 10,
@@ -11,10 +11,10 @@
       "file": "01-开场-场景选择界面.png",
       "title": "开场：场景选择界面",
       "how": "本地服务（serve.py）启动后打开 3Dprogram_3.1.html，首屏即场景选择界面",
-      "content": "盛唐夜景动画背景视频（3dmod_and_pic/pic/vd/main.mp4）+ 左右深青褐渐变；两枚锥形星芒场景按钮（长安城西 / 长安三万里·朱雀大街），页面标题已为《天阙诗都·越长安——上国诗章，长安之上》",
-      "proves": "场景选择入口 + 视频背景 + GSAP 星芒按钮动画；交付版仅两条唐诗主线（序章已移除），页面标题为新作品名",
-      "sizeKB": 1264,
-      "sha256_16": "11406d28871bb6d3",
+      "content": "新版横版首页背景视频（pic/vd/selector-bg.mp4，1920×1080 / 25s / 2.6MB，A→B→C→A 推拉+xfade 循环，全屏 cover 不变形）+ 两枚锥形星芒场景按钮（长安城西 / 长安三万里·朱雀大街）",
+      "proves": "场景选择入口 + 新版横版首页视频（全屏 cover、循环播放）+ GSAP 星芒按钮动画；页面标题为新作品名，交付版仅两条唐诗主线",
+      "sizeKB": 1787,
+      "sha256_16": "2b063ce3dc006bd4",
       "sourceCandidate": "shots/candidates-v2/common-00-selector.png"
     },
     {
@@ -22,10 +22,10 @@
       "file": "02-朱雀大街全景-长安三万里.png",
       "title": "朱雀大街全景（长安三万里主场景）",
       "how": "点击「长安三万里·朱雀大街」→ 跳过竖排书法打字机 → 进入 3D 场景，相机置于朱雀大街中轴 (0,18,90) 朝向 (0,130,-300)",
-      "content": "朱红过街门楼、石板御道、两侧唐式楼阁/灯笼商铺/东市建筑群，背景为唐长安城画卷穹顶；街上可见新对话 NPC 岑参、胡商、卖花女",
-      "proves": "Three.js 实时 3D 渲染 + 61 GLB 场景资产 + 第一人称漫游的城市纵深",
-      "sizeKB": 1885,
-      "sha256_16": "7f06d04f5a32b048",
+      "content": "朱红过街门楼、**新铺御道青石方砖地面（ground-court-01，repeat 40×40）**、两侧唐式楼阁/灯笼商铺/东市建筑群，**背景为新的暮色天空穹顶（sky-dusk-01：晚霞暖金/云海/远山与城郭剪影/飞鸟）**；街上可见新对话 NPC 岑参、胡商、卖花女",
+      "proves": "Three.js 实时 3D 渲染 + 61 GLB 场景资产 + 新地砖/新天空贴图 + 第一人称漫游的城市纵深",
+      "sizeKB": 1477,
+      "sha256_16": "edbc2dcc9ad14367",
       "sourceCandidate": "shots/candidates-v2/one-10-street-panorama.png"
     },
     {
@@ -35,8 +35,8 @@
       "how": "同一场景中相机推进至牌楼下 (0,16,-80) 仰视 (0,110,-215)",
       "content": "朱红三间四柱过街门楼、蓝瓦飞檐斗拱，门内为城墙门与楼阁，体现长安城门形制",
       "proves": "3D 建筑模型细节（gate.glb）+ 自由视角观察 + 建筑可右键交互（长安物语旁白）",
-      "sizeKB": 2165,
-      "sha256_16": "a3364b643f85ece6",
+      "sizeKB": 1902,
+      "sha256_16": "1c35ac7e02c0f32f",
       "sourceCandidate": "shots/candidates-v2/one-11-gate.png"
     },
     {
@@ -44,10 +44,10 @@
       "file": "04-宝塔楼阁-东市塔楼.png",
       "title": "宝塔楼阁（东市塔楼）",
       "how": "相机朝向东市塔楼（世界坐标 -200,145,-555）仰拍",
-      "content": "多层塔式楼阁（tower.glb）全景，前景牌楼朱柱与灯笼商铺，右侧城墙门与唐式楼阁群",
+      "content": "多层塔式楼阁（tower.glb）全景，前景牌楼朱柱与灯笼商铺，右侧城墙门与唐式楼阁群；脚下为新御道地砖、背景为新暮色天空",
       "proves": "关键 3D 资产（宝塔/楼阁）+ 多模型同屏与景深层次 + 唐长安建筑美术风格",
-      "sizeKB": 1830,
-      "sha256_16": "9614ad4e5f0ad351",
+      "sizeKB": 1413,
+      "sha256_16": "fb38b0cd9b0771e1",
       "sourceCandidate": "shots/candidates-v2/one-12-tower.png"
     },
     {
@@ -57,8 +57,8 @@
       "how": "返回场景选择，点击「长安城西」→ 进入 3D 场景前的竖排书法打字机第 1 页（点击可逐页跳过）",
       "content": "左侧竖排书法逐字显示剧情文本「同年的长安城西」，背景为夜长安灯火/孔明灯/烟花演示视频（3dmod_and_pic/pic/vd/1.3.mp4）",
       "proves": "关卡/剧情引入动画（竖排书法打字机 + 视频背景）+ 游戏化教学流程；画面最富视觉冲击的一帧",
-      "sizeKB": 1972,
-      "sha256_16": "eb48b6729eadd448",
+      "sizeKB": 1923,
+      "sha256_16": "7c97e0802e7d1f47",
       "sourceCandidate": "shots/candidates-v2/two-02-calligraphy-1.png"
     },
     {
@@ -68,8 +68,8 @@
       "how": "朱雀大街场景中相机走近岑参 NPC，准星对准后点击鼠标右键（射线检测命中 dialogue_）→ 弹出对话卡片",
       "content": "新版对话卡片：绢本长卷卡面 + 鎏金细框 + 左侧竖排名牌「岑参」+ 笺纸选项条 7 条 + 朱印关闭钮 + 墨晕遮罩；卡片上方可见岑参与胡商、卖花女 NPC",
       "proves": "右键射线交互（Raycaster）+ 重构后的对话内容（岑参 15 节点/1528 字）+ 全新对话卡片 UI（卡面/竖排名牌/选项条/入场动画）",
-      "sizeKB": 1823,
-      "sha256_16": "668172e96d711fa6",
+      "sizeKB": 1693,
+      "sha256_16": "668d18e103e28094",
       "sourceCandidate": "shots/candidates-v2/one-dlg-censen-ang0.png"
     },
     {
@@ -79,8 +79,8 @@
       "how": "朱雀大街场景中准星对准新增 NPC 胡商（hushang，粟特胡商形象）→ 右键触发对话",
       "content": "竖排名牌「胡商」+ 对话文本「朱雀大街上，一个高鼻深目的胡商牵着两匹骆驼……」+ 3 条选项；画面中胡商与岑参、卖花女同框",
       "proves": "新增 NPC 胡商可交互（6 节点/509 字）+ 丝路/长安商贸视角的「长安物语」，从商人视角补盛唐长安",
-      "sizeKB": 1714,
-      "sha256_16": "57a7cf5ed4e063cd",
+      "sizeKB": 1553,
+      "sha256_16": "79ee17df0bde6d79",
       "sourceCandidate": "shots/candidates-v2/one-dlg-hushang-ang0.png"
     },
     {
@@ -90,8 +90,8 @@
       "how": "朱雀大街场景中准星对准新增 NPC 卖花女（maihua）→ 右键触发对话",
       "content": "竖排名牌「卖花女」+ 对话文本「坊墙下，一个荆钗布裙的姑娘守着两只竹篮，篮里是带露的杏花……」+ 3 条选项",
       "proves": "新增 NPC 卖花女可交互（5 节点/439 字）+ 平民视角的春日长安，补足市井烟火气",
-      "sizeKB": 1741,
-      "sha256_16": "84f63d8e34b780f5",
+      "sizeKB": 1602,
+      "sha256_16": "20762dbe9449bd12",
       "sourceCandidate": "shots/candidates-v2/one-dlg-maihua-ang0.png"
     },
     {
@@ -99,10 +99,10 @@
       "file": "09-长安城西-储光羲对话卡片.png",
       "title": "长安城西：储光羲对话卡片（6 条剧情选项）",
       "how": "进入「长安城西」场景，走近储光羲 NPC（青绿官袍），准星对准后右键触发对话",
-      "content": "竖排名牌「储光羲」+ 对话文本「清静巷内，几株老槐浓荫蔽日……望着院中飘落的槐花，久久不语」+ 6 条选项（含新增「大人可羡辋川之隐？」）；画面左侧为东市旅舍、右侧唐式楼阁",
+      "content": "竖排名牌「储光羲」+ 对话文本「清静巷内，几株老槐浓荫蔽日……望着院中飘落的槐花，久久不语」+ 6 条选项（含新增「大人可羡辋川之隐？」）；画面左侧为东市旅舍、右侧唐式楼阁；地面为新石板贴图（ground-stone-01）、天空为新城夜晚空（sky-night-01）",
       "proves": "第二场景 + 第二位诗人独立剧情线（储光羲 13 节点/1139 字）+ 双诗人双视角对照教学；新增「辋川之隐」选项串联王维线",
-      "sizeKB": 1891,
-      "sha256_16": "c2e09bca5b1554ff",
+      "sizeKB": 1815,
+      "sha256_16": "6eef2fb41e0a9b72",
       "sourceCandidate": "shots/candidates-v2/two-dlg-chuguangxi_kaiyuan-ang0.png"
     },
     {
@@ -110,17 +110,18 @@
       "file": "10-长安城西-王维对话卡片.png",
       "title": "新 NPC 对话卡片：王维（5 条剧情选项）",
       "how": "「长安城西」槐院场景中准星对准新增 NPC 王维（52 岁王维静态模型）→ 右键触发对话",
-      "content": "竖排名牌「王维」+ 对话文本「槐院深处，一位青衫中年人倚竹而立，指间没有茶，只有一片落叶……」+ 5 条选项；画面可见院门与唐式建筑",
+      "content": "竖排名牌「王维」+ 对话文本「槐院深处，一位青衫中年人倚竹而立，指间没有茶，只有一片落叶……」+ 5 条选项；画面可见院门与唐式建筑；地面为新石板贴图、天空为新城夜晚空",
       "proves": "新增诗人 NPC 王维可交互（8 节点/631 字，含辋川/诗中有画主题）+ 与储光羲「仕与隐」互文，构成六位人物对话体系",
-      "sizeKB": 1870,
-      "sha256_16": "74882e139a98900c",
+      "sizeKB": 1779,
+      "sha256_16": "e90ea28ac2821a1c",
       "sourceCandidate": "shots/candidates-v2/two-dlg-wangwei-ang1.png"
     }
   ],
   "extras": {
     "contactSheet": "shots/contact-sheet.jpg",
-    "candidates": "shots/candidates-v2/（53 张 v2 候选：多角度对话卡/分支/加载/俯瞰/水墨书法等）",
-    "v1Archive": "shots/candidates-v1/（v1 旧版 10 张，已归档）"
+    "candidates": "shots/candidates-v2/（本次 v3 采集 50+ 张：多角度对话/分支/加载/俯瞰等）",
+    "prevArchive": "shots/candidates-v2-prev/（上一轮 v2 视觉版 10 张，已归档）",
+    "v1Archive": "shots/candidates-v1/（v1 旧版，已归档）"
   },
   "coverageMap": {
     "①开场/主视角": "01",
@@ -135,31 +136,23 @@
     "⑩双诗人双视角（城西线）": "09、10"
   },
   "verification": {
-    "sourceVersion": "run-submit v2（新对话 6494 字 + 新卡片 UI + 3 位新 NPC；three.js 0.160/gsap 本地化，断网可运行）",
-    "buildTime": "2026-10-22 16:56（node logs/build_run_submit.mjs，含终版 book.js sha256 3677080E…）",
-    "staticChecks": "logs/static_check.mjs：30 项静态断言 29 通过（唯一 pending 为 ui/manifest.json 由 image-gen 随素材补写，已于终版落盘），含 title 新名、无 CDN、ui 素材 13 张齐全、start.bat serve.py 优先、启动说明新名/30—60s 口径",
+    "sourceVersion": "run-submit v3：新贴图（ground-court-01/ground-stone-01/sky-dusk-01/sky-night-01）、新横版首页视频 selector-bg.mp4；对话与卡片 UI 沿用 v2",
+    "buildTime": "2026-10-22 14:21:55",
+    "textureIntegration": "run/book.js 4 处贴图路径替换 + 4 处 colorSpace=SRGBColorSpace + repeat（御道 40×40 / 石板 55×55）；run/3Dprogram_3.1.html 首页视频换 selector-bg.mp4 + poster + #selector-bg-video 全屏 cover + 失败回退静态图；旧素材 grey_zhuankuai/t1/main.mp4 保留可回退",
+    "staticChecks": "book.js node --check 通过；run-submit 内 4 张新贴图 + selector-bg.mp4 均存在；HTML 无 main.mp4 残留",
     "runtimeChecks": {
-      "sceneOne": {
-        "glb": "13 个 GLB 全部加载成功，0 失败 0 个 404",
-        "loadSec": 59,
-        "dialogues": "4 位对象可右键触发：岑参(7 选项)/胡商(3)/卖花女(3)/过街门楼(1)",
-        "cardUI": "卡面 dlg-card-a + 竖排名牌 writing-mode:vertical-rl + 选项条 dlg-btn-normal + 入场动画 dlgCardIn + 墨晕遮罩",
-        "text": "19px/行高 37.05px/white-space:pre-line（诗作多行保留）",
-        "console": "0 个 pageerror / 0 个致命 console error"
-      },
-      "sceneTwo": {
-        "glb": "6 个 GLB 全部加载成功，0 失败 0 个 404",
-        "loadSec": 42,
-        "dialogues": "储光羲(6 选项)/王维(5 选项) 均可右键触发，卡片 UI 同上",
-        "console": "0 个 pageerror / 0 个致命 console error"
-      },
-      "noBackend": "AI 自由对话为可选增强（对话 node_end 输入框），未启动后端时仅提示连接失败，不影响漫游/剧情/选项（v1 已实测，v2 未改该逻辑）",
-      "offline": "v2 仅改对话内容/卡片素材，全部资源本地（three/gsap/ui/GLB/mp4 均在包内），无任何 CDN 依赖（静态扫描 + 运行时 0 外部请求）；断网可运行性与 v1 一致"
+      "selectorVideo": "新版横版视频 1920×1080、readyState=4、playing、loop、muted、object-fit=cover；显示尺寸 1920×1080，naturalRatio=displayedRatio=1.778（不变形、无留边）",
+      "sceneOne": "13 个 GLB 全部加载成功（40s），0 失败 0 个 404；新御道地砖 + 新暮色天空生效；右键触发 岑参(7)/胡商(3)/卖花女(3)/过街门楼(1)；卡片 UI 断言全绿；0 pageerror",
+      "sceneTwo": "6 个 GLB 全部加载成功（30s），0 失败 0 个 404；新石板地砖 + 新城夜晚空生效；右键触发 储光羲(6)/王维(5)/春明门(1)；卡片 UI 断言全绿；0 pageerror",
+      "texture404": "0 个贴图 404（pic/textures/* 与 selector-bg.mp4 全部 200）",
+      "console": "0 个 pageerror、0 个致命 console error",
+      "noBackend": "AI 自由对话为可选增强；未启动后端不影响漫游/剧情/选项（v1 实测、v2 未改逻辑）",
+      "offline": "全部资源本地（three/gsap/ui 13 张/新贴图/新视频/GLB/mp4），无 CDN 依赖；断网可运行性与 v1 一致"
     }
   },
   "compliance": {
     "resolution": "全部 1920×1080 PNG",
-    "maxSizeKB": "约 2170 KB（均 < 2.5 MB）",
+    "maxSizeKB": "约 1900 KB（均 < 2.5 MB）",
     "noPersonalInfo": "无学校/姓名/指导教师/学号，无浏览器地址栏（Playwright 纯 viewport 截图）",
     "noZeroScene": "10 张均来自交付版 run-submit，不含序章",
     "noOldName": "截图与卡片 UI 中无旧作品名文字"
